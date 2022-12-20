@@ -1,3 +1,5 @@
+import java.util.*
+
 fun main() {
     using_Var_Val()
     typeInference()
@@ -116,6 +118,7 @@ fun typeArrays() {
     val myIntArray = intArrayOf(1, 3, 5, 7)		// IntArray (corresponds to Java 'int[]')
 
     var mySquareArray = Array(5, {i -> i * i})	// [0, 1, 4, 9, 16]
+    println(Arrays.toString(mySquareArray))
 }
 
 fun typeConversions() {
